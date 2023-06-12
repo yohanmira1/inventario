@@ -56,9 +56,9 @@ class Frame(tk.Frame):
         self.label_marca1.config(font = ('Arial', 10, 'bold'))
         self.label_marca1.grid(row = 0, column = 3, padx = 8, pady =8)
 
-        #self.label_precio1 = tk.Label(self, text = 'Buscar Precio: ')
-        #self.label_precio1.config(font = ('Arial', 10, 'bold'))
-        #self.label_precio1.grid(row = 1, column = 3, padx = 8, pady =8)
+        self.label_precio1 = tk.Label(self, text = 'Buscar Precio: ')
+        self.label_precio1.config(font = ('Arial', 10, 'bold'))
+        self.label_precio1.grid(row = 1, column = 3, padx = 8, pady =8)
 
         #self.label_talla1= tk.Label(self, text = 'Buscar Talla: ')
         #self.label_talla1.config(font = ('Arial', 10, 'bold'))
