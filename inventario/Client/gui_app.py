@@ -210,10 +210,10 @@ class Frame(tk.Frame):
         self.boton_modificar.grid(row = 6, column = 0, padx = 8, pady =8)
         
         #boton buscar
-        #self. boton_buscar = tk.Button(self, text= "Buscar", command= self.buscar)
-        #self.boton_buscar.config(width = 20, font = ('Arial', 12, 'bold'), fg ='#FFFFFF', bg ='#015E87', 
-        #                       cursor = 'hand2', activebackground='#1394CD')
-        #self.boton_buscar.grid(row = 6, column = 1, padx = 8, pady =8)
+        self. boton_buscar = tk.Button(self, text= "Buscar", command= self.buscar)
+        self.boton_buscar.config(width = 20, font = ('Arial', 12, 'bold'), fg ='#FFFFFF', bg ='#015E87', 
+                               cursor = 'hand2', activebackground='#1394CD')
+        self.boton_buscar.grid(row = 6, column = 1, padx = 8, pady =8)
         
         #boton eliminar
         self. boton_eliminar = tk.Button(self, text= "Eliminar", command = self.eliminar_datos)
