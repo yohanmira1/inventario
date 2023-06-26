@@ -23,3 +23,4 @@ Este proyecto se realizo con las aplicaciones [cmder](http://https://cmder.app/ 
 -abri la base de datos con [DB Browser SQLite](http://https://sqlitebrowser.org/ "DB Browser SQLite")
 
 # Vista previa de ejecución 
+[![interface.png](https://i.postimg.cc/K8rrLQJ0/interface.png)](https://postimg.cc/3kNvQjMG)
